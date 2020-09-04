@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wall"
+    tools:context=".Levels_before_2">
+
+    <Button
+        android:id="@+id/level1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.9"
+        android:background="@drawable/custom_level"
+        android:onClick="level1"
+        android:text="1"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/level2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="260dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.9"
+        android:background="@drawable/custom_level"
+        android:clickable="false"
+        android:enabled="true"
+        android:onClick="level2"
+        android:text="2"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="440dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="80dp"
+        android:alpha="0.5"
+        android:background="@drawable/custom_level"
+        android:text="3"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/custom_button_gradient"
+        android:onClick="goBack"
+        android:text="Back" />
+</RelativeLayout>

@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.test1">
+
+    <uses-permission
+        android:name="android.permission.WRITE_SETTINGS"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:name=".Global"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <service
+            android:name=".MusicService"
+            android:enabled="true" />
+
+        <activity
+            android:name=".Level_3.Level3_g"
+            android:screenOrientation="landscape"></activity>
+        <activity
+            android:name=".Level_3.Pause3_e"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Pause3_d"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Pause3_b"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Pause3_a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Lose_3f_2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Lose_3f_1"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Lose_3e_2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Lose_3e_1"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option2_3d"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option1_3d"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option2_3c"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option1_3c"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option2_3b"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option1_3b"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option3_3a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option2_3a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Option1_3a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Hint3_g"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Lose_3g"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_3.Win3"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_3.Level3_f"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_3.Level3_e"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_3.Level3_d"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_3.Level3_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_3.Level3_b"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_3.Level3_a"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_2.Lose2_b_kiss"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_2.Lose2_b_kill"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_2.Level2_b"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Levels_before_3"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_2.Win2"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_2.Lose2_c"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_2.Pause2_c"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_2.Option1_2a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_2.Option2_2a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="landscape">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Options"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Levels_before_1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_1.Level1"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_1.Pause1"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_1.Lose1"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu2" />
+        <activity
+            android:name=".Level_1.Win1"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Levels_before_2"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_2.Level2_c"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".Level_2.Hint2_c"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_2.Pause2_a"
+            android:screenOrientation="landscape"
+            android:theme="@style/AppTheme.PopMenu" />
+        <activity
+            android:name=".Level_2.Level2_a"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

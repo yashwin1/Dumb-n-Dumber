@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Dumb n Dumber</string>
+    <string name="title_activity_farm">Farm</string>
+    <string name="title_activity_app__opens">App_Opens</string>
+    <string name="title_activity_levels">Levels</string>
+</resources>
