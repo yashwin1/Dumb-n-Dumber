@@ -21,6 +21,10 @@ public class MusicService extends Service implements MediaPlayer.OnErrorListener
             return MusicService.this;
         }
     }
+    
+    public MediaPlayer getPlayer(){
+        return mPlayer;
+    }
 
     @Override
     public IBinder onBind(Intent arg0) {
